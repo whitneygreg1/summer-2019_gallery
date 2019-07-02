@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<style>
+    
+    .gallery{
+        margin: 10px 50px;
+        text-align: center;
+        } 
+    .gallery img{ width: 250px;
+                  height: 250px;
+                  padding: 5px;
+                  filter:grayscale(100%);
+                  transition: 1s; }
+    .gallery img:hover{
+        filter: grayscale(0);
+        transform: scale(1.1);
+    }
+    #container{background-color: cornflowerblue}
+     h1{text-align: center;
+    font-family: fantasy;
+    color: beige;
+    font-size: 45px;}
+   
+    ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: solid darkblue 1px;
+    border-radius: 10px;
+
+    
+}
+    
+    a {color:darkviolet;}
+    header nav{text-align: center;
+            font-size: 30px; }
+  
+
+a {
+    color:darkviolet;
+    text-decoration: none;}
+}
+a:link{
+    color:darkviolet;
+}
+a:visited{
+    color:fuchsia;
+}
+a:hover{
+    color:dodgerblue;
+}
+a:active{
+    color:aqua;
+}
+
+    
+    </style>
+<head>
+    <meta charset="utf-8">
+
+    <title >Nature Gallery</title>
+
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <header>
+          
+            <h1>Nature Gallery</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="nature.html">nature</a></li>
+                    <li><a href="fashion.html">Fashion</a></li>
+                    <li><a href="poetry.html">Poetry</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h1 id="welcome-message">Welcome to nature gallery</h1>
+            <div class="gallery">
+             <a href="images/pic1.jpg"><img src="images/pic1.jpg"></a>
+             <a href="images/pic2.jpg"><img src="images/pic2.jpg"></a>
+             <a href="images/pic3.jpg"><img src="images/pic3.jpg"></a>
+             <a href="images/pic4.jpg"><img src="images/pic4.jpg"></a>
+             <a href="images/pic5.jpg"><img src="images/pic5.jpg"></a>
+             <a href="images/pic6.jpg"><img src="images/pic6.jpg"></a>
+             <a href="images/pic7.jpg"><img src="images/pic7.jpg"></a>
+             <a href="images/pic8.jpg"><img src="images/pic8.jpg"></a>
+            
+            
+            
+            </div>
+            
+        </main>
+        
+        <footer>
+            <p>&copy; 2019 Whitney Gregory</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

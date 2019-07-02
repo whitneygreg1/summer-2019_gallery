@@ -1,0 +1,87 @@
+Body{
+    background-color:burlywood;
+    background-image: url(../images/dawn-hd-wallpaper-landscape-36717.jpg);
+    background-size: cover;
+}
+
+    
+#container {
+    width: 800px;
+    border: 1px black dotted;
+    margin: 0 100px 0 auto;
+    background-color: white;}
+
+#header{
+    width:900px;
+    height: 300px;
+    background-color:aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    }
+header h1{font-family: cursive;
+   font-size:100px;
+   color:black;
+   text-align: center;}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    border: solid red 1px;
+    border-radius: 10px;
+
+    
+}
+header nav{text-align: center;
+            font-size: 30px; }
+#main{
+   width:700px;
+  
+    border: 1px green double;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+     
+}
+main h1{text-align: center}
+a {
+    color:darkviolet;
+    text-decoration: none;}
+#intro-image{
+    
+    text-align: center;}
+#intro-image img{
+    width:500px;margin: 0 auto;
+border-radius: 50px;
+}
+   
+#first impression {
+    color:	#191970;
+    }
+#footer{
+    width:auto;
+    height:400px;
+    background-color: crimson;
+    border-bottom-color: antiquewhite;
+    border-style:dotted;
+    border-width: medium;}
+    
+    
+a{color:darkviolet;
+  
+}
+a:link{
+    color:darkviolet;
+}
+a:visited{
+    color:fuchsia;
+}
+a:hover{
+    color:dodgerblue;
+}
+a:active{
+    color:aqua;
+}
